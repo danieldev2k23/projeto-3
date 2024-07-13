@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Donalds</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand section-title m-0">MC Donalds</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-mc" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o MC Donalds
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text  me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-mc">
+            <div class="container carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://www.tribunapr.com.br/wp-content/uploads/sites/72/2023/06/14152344/mc-donalds-rmc.jpeg" alt="Foto do espaço externo do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://media.seudinheiro.com/uploads/2021/07/McDonald%C2%B4s-715x402.png" alt="Lanche do Mc">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://lulimonteleone.com/wp-content/uploads/2019/06/Mc-donalds-na-india.jpg" alt="Mc donalds na Índia">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+                <div>
+                    <div class="container pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="https://designportugal.net/wp-content/uploads/2016/04/m-mcdonalds.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da cafeteria">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title">Sobre <span class="text-colored">a cafeteria</span></h2>
+                                <p>
+                                    Bem-vindos ao MC Donalds: <br>
+                                    O McDonald's é a maior cadeia de restaurantes de fast food do mundo, servindo mais de 69 milhões de clientes diariamente, em mais de 100 países por meio de 40 mil pontos de venda em 2021. Apesar de ser mais conhecido por seus cheeseburgers e batatas fritas, o seu cardápio também inclui outros itens como frango, peixe, frutas e saladas. O item licenciado mais vendido são as batatas fritas, seguidas pelo Big Mac.
+                                </p>
+                                <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                                <p>
+                                    Ambiente: <br>
+                                    O MC Donalds é o local perfeito para matar a fome, seja com os amigos, família ou sozinho. Nossos espaços são equipados com Wi-Fi gratuito e tomadas acessíveis para garantir conforto e conveniência aos nossos clientes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5"> 
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Eventos<span class="text-colored"> especiais</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <img src="midia/eventos/aniversario.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="text-colored section-title fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Reservas para aniversários
+                        </h3>
+                        <p>Você pode reservar uma mesa para comemorações de aniversários com direito a um cardápio feito para esta ocasião totalmente gratuito.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="midia/eventos/show.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="text-colored section-title fs-4">
+                            <i class="bi bi-file-music-fill"></i>
+                            LollaBR24</h3>
+                        <p>O MC Donalds é patrocinador oficial do Lollapalooza Brasil 2024, que acontece neste final de semana, entre os dias 22 e 24 de março, em São Paulo. E para atender o público com excelência e agilidade, ... </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <section id="cardapio" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">
+                    Nosso <span class="text-colored">cardápio</span>
+                </h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-columns nav-cardapio">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#novidades-lancamentos" class="fw-bold text-start  nav-link text-colored active">Novidades e lançamentos</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#mc-ofertas" class="fw-bold text-start  nav-link text-colored">Mc Ofertas</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#mequi-box" class="fw-bold text-start  nav-link text-colored">Méqui Box</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#acompanhamentos-molhos" class="fw-bold text-start  nav-link text-colored">Acompanhamentos e molhos</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                            <div class="tab-pane active" id="novidades-lancamentos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407050426_qpxkyfnzm8.png" alt="Batata frita">
+                                        <h5 class="text-colored fw-bold mt-2">MCSHAKER FRIES MÉDIA LEMON PEPPER</h5>
+                                        <p>
+                                            Agora sua McFritas Média ganha uma nova cara com um sabor especial combinando o azedinho do limão com o leve picante da pimenta, é só chacoalhar sua McFritas Média com o condimento preparado sabor limão e pimenta e está pronto!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407050426_ldtgr4fjrxj.png" alt="Milkshake">
+                                        <h5 class="text-colored fw-bold mt-2">MCSHAKE SABOR BA-NA-NAA 400ML</h5>
+                                        <p>
+                                            Deliciosamente cremoso. O novo McShake Ba-Na-Naa, com cobertura sabor banana. Uma delícia!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407050426_y9ze5npqrc8.png" alt="Caldo e freddo">
+                                        <h5 class="text-colored fw-bold mt-2">CALDO&FREDDO BA-NA-NAA</h5>
+                                        <p>
+                                            Sobremesa composta por bebida láctea sabor baunilha, cobertura sabor chocolate e torta de banana
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407050426_o31ke9a6j0e.png" alt="Combo">
+                                        <h5 class="text-colored fw-bold mt-2">MCSHAKE SABOR BA-NA-NAA + MCSHAKER FRIES MÉDIA LEMON PEPPER</h5>
+                                        <p>
+                                            Aproveite essa combinação perfeita. Agora sua McFritas Média ganha uma nova cara com um sabor especial combinando o azedinho do limão com o leve picante da pimenta, é só chacoalhar sua McFritas Média com o condimento preparado sabor limão e pimenta e está pronto! Juntinho o novo McShake Ba-Na-Naa, com cobertura sabor banana. Uma delícia!                                        </p>
+                                    </div>
+                            </div>
+                            </div>
+                            <div class="tab-pane" id= "mc-ofertas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010901_gcoyqy2su4s.png" alt="Big Mac">
+                                        <h5 class="text-colored fw-bold mt-2">MCOFERTA MÉDIA BIG MAC</h5>
+                                        <p>
+                                            Dois hambúrgueres (100% carne bovina), alface americana, queijo cheddar, maionese Big Mac, cebola, picles e pão com gergelim, acompanhamento e bebida
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010902_j5f9813qcwq.png" alt="Cheddar Mcmelt">
+                                        <h5 class="text-colored fw-bold mt-2">MCOFERTA MÉDIA CHEDDAR MCMELT</h5>
+                                        <p>
+                                            Um hambúrguer (100% carne bovina), molho lácteo com queijo tipo cheddar, cebola ao molho shoyu e pão escuro com gergelim, acompanhamento e bebida
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010902_thcg7a4g5zp.png" alt="Mc Chicken">
+                                        <h5 class="text-colored fw-bold mt-2">MCOFERTA MÉDIA MCCHICKEN</h5>
+                                        <p>
+                                            Frango empanado, maionese, alface americana e pão com gergelim, acompanhamento e bebida
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010902_3j77l9nw7z9.png" alt="Big tasty">
+                                        <h5 class="text-colored fw-bold mt-2">MCOFERTA MÉDIA BIG TASTY TURBO QUEIJO</h5>
+                                        <p>
+                                            Um hambúrguer (100% carne bovina), queijo processado sabor emental, queijo processado sabor cheddar, molho com queijo mussarela, tomate, alface americana, cebola, molho Tasty e pão com gergelim, acompanhamento e bebida
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id= "mequi-box">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010904_pkkaap09utd.png" alt="Frappuccino">
+                                        <h5 class="text-colored fw-bold mt-2">MÉQUI BOX 3 MCOFERTAS BRABOS DO MÉQUI</h5>
+                                        <p>
+                                            São 3 Mcofertas para você compartilhar com quem preferir #Méquinosofá. Escolha 3 (três) sanduíches entre as opções: Brabo Bacon Salad e Brabo Melt Crispy, 3 (três) McFritas Médias e 3 (três) Bebidas
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010904_gauwu9wyt68.png" alt="Iced-Latte
+                                        ">
+                                        <h5 class="text-colored fw-bold mt-2">MÉQUI BOX - 4 MCOFERTAS MÉDIAS</h5>
+                                        <p>
+                                            São 4 Mcofertas para você compartilhar com quem preferir #Méquinosofá. Escolha 4 (quatro) sanduíches entre as opções: Big Mac, Cheddar McMelt, Quarterão com Queijo, McChicken, McChicken Bacon, McNífico Bacon, Big Tasty, Duplo Quarterão ou Duplo Cheddar, 4 (quatro) McFritas Médias e 4 (quatro) bebidas. Imagem Meramente Ilustrativa
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010904_eiwk7rgusq6.png" alt="Smoothies-de-frutas
+                                        ">
+                                        <h5 class="text-colored fw-bold mt-2">FAMILY BOX 3 PESSOAS: 2 MCOFERTAS MÉDIAS + MCLANCHE FELIZ</h5>
+                                        <p>
+                                            São opções para 3 pessoas, 1 (um) McLanche Feliz e 2 (duas) Mcofertas para você compartilhar com a família #méquinosofá. Escolha 2 (dois) sanduíches da McOferta, entre as opções: Big Mac, Cheddar McMelt, Quarterão com Queijo ou McChicken, 2 (duas) McFritas Média e 2 (duas) Bebidas e um McLanche Feliz. Brinquedo sujeito a disponibilidade do restaurante. Imagem Meramente Ilustrativa</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="acompanhamentos-molhos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010905_kz2685fuof.png" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">MCFRITAS CHEDDAR BACON</h5>
+                                        <p>
+                                            A batata frita mais famosa do mundo, agora com molho com queijo tipo cheddar e bacon crispy. Não dá para resistir, experimente!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010906_02225p5m2sl4.png" alt="Croissants">
+                                        <h5 class="text-colored fw-bold mt-2">CHICKEN MCNUGGETS 10 UNIDADES</h5>
+                                        <p>
+                                            Crocantes, leves e deliciosos. Os frangos empanados mais irresistíveis do Mcdonald’s. Composto por 10 unidades
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010906_ojxp5xtwpx.png" alt="Cookies artesanais">
+                                        <h5 class="text-colored fw-bold mt-2">MOLHO RANCH</h5>
+                                        <p>
+                                            Escolha seu molho favorito para se deliciar com os chicken McNuggets, ou se preferir, com as deliciosas e crocantes McFritas
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010906_grbacotc3mr.png" alt="Sanduíches">
+                                        <h5 class="text-colored fw-bold mt-2">MOLHO AGRIDOCE</h5>
+                                        <p>
+                                            Escolha seu molho favorito para se deliciar com os chicken McNuggets, ou se preferir, com as deliciosas e crocantes McFritas
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.ifood-static.com.br/image/upload/t_medium/pratos/c03c7c19-5445-4716-a7c3-f824b8e523b7/202407010906_tt2r61r4qyc.png" alt="Wraps">
+                                        <h5 class="text-colored fw-bold mt-2">MOLHO CAIPIRA</h5>
+                                        <p>
+                                            Um melhor que o outro. O difícil é escolher qual é o melhor para se deliciar com os Chicken McNuggets. Que tal variar sempre?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links"> 
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Taguatinga Shopping</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
